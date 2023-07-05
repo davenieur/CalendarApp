@@ -5,18 +5,6 @@ import { Navbar, CalendarEvent, CalendarModal, FabAddNew, FabDelete } from "../"
 import { useEffect, useState } from "react";
 import { useAuthStore, useCalendarStore, useUiStore } from '../../hooks';
 
-// const events = [{
-//   title:'Cumpleaños del jefe',
-//   notes: 'Hay que comprar el pastel',
-//   start: new Date(),
-//   end: addHours( new Date(), 2),
-//   bgColor: '#fafafa',
-//   user: {
-//     _id: '123',
-//     name: 'David'
-//   }
-// }]
-
 export const CalendarPage = () => {
   const { user } = useAuthStore();
 
