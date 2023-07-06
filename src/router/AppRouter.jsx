@@ -4,7 +4,7 @@ import { CalendarPage } from '../calendar';
 import { useAuthStore } from '../hooks';
 import { useEffect } from 'react';
 
-export default function AppRouter() {
+export const AppRouter = ()  => {
     // const authStatus = 'not-authenticated';
 
     const { status, checkAuthToken } = useAuthStore();

@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { getEnvVariables } from '../helpers';
 
-// const { VITE_API_URL } = getEnvVariables();
-const VITE_API_URL = 'https://ca-loovely.netlify.app/.netlify/functions/index';
+const { VITE_API_URL } = getEnvVariables();
+
 
 const calendarApi = axios.create({
     baseURL: VITE_API_URL
