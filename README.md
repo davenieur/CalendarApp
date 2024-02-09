@@ -24,3 +24,12 @@ The project is created with:
 ## Setup
 To run this project, use the following commands:
 
+$ npm install
+$ npm start
+
+
+## Check online
+[[https://middit-dpr.netlify.app](https://middit-dpr.netlify.app)](https://calendar-app-l00vely.netlify.app)
+
+## Future versions
+For this project, I plan to implement Redux in the future to manage the state of the application and simplify the data flow between components. Additionally, there is a need to design and optimize the application for mobile devices and improve its accessibility to make it more user-friendly and inclusive for all users.
